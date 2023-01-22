@@ -2,6 +2,8 @@
 name = "ofcli"
 version = "0.1.0"
 edition = "2021"
+description = "Cli tool for uploading files to onefile.clowzed.ru"
+license = "MIT"
 
 [dependencies]
 reqwest = { version = "0.11.13", features = ["blocking", "multipart"] }
